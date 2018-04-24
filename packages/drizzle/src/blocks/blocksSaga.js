@@ -82,10 +82,10 @@ function createBlockPollChannel({
   web3
 }) {
   return eventChannel(emit => {
-    const blockTracker = new BlockTracker(
-      { provider: web3.currentProvider },
-      interval
-    )
+    const blockTracker = new BlockTracker({
+      provider: web3.currentProvider,
+      pollingInterval: interval
+    })
 
     blockTracker.on('latest', block => {
       emit({
@@ -187,24 +187,18 @@ function* processBlock({
           contractAddresses.indexOf(txs[i].to.toLowerCase()) !== -1
         ) {
           const index =
-            contractAddresses.indexOf(txs[i].from) !== -1
-              ? contractAddresses.indexOf(txs[i].from)
-              : contractAddresses.indexOf(txs[i].to)
+            contractAddresses.indexOf(txs[i].from.toLowerCase()) !== -1
+              ? contractAddresses.indexOf(txs[i].from.toLowerCase())
+              : contractAddresses.indexOf(txs[i].to.toLowerCase())
           const contractName = contractNames[index]
 
           yield put({
             type: 'CONTRACT_SYNCING',
             contract: contracts[contractName]
           })
-
-          return
         }
       }
-
-      return
     }
-
-    return
   } catch (error) {
     console.error('Error in block processing:')
     console.error(error)
