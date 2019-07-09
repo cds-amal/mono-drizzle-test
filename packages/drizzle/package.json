@@ -1,5 +1,5 @@
 {
-  "name": "drizzle",
+  "name": "@drizzle/drizzle",
   "version": "1.4.0",
   "description": "A reactive data-store for web3 and smart contracts.",
   "main": "./dist/drizzle.js",
