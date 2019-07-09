@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/trufflesuite/drizzle"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "webpack --config webpack/release.config.js",
     "build:pure": "webpack --config webpack/pure.config.js",
@@ -53,5 +56,6 @@
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-merge": "^4.1.4"
-  }
+  },
+  "gitHead": "5b606fe6e313f6b308442cab99eebdfd0843af88"
 }

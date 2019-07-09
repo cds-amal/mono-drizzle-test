@@ -18,6 +18,9 @@
     "ethereum",
     "vue"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name DrizzleVue ./src/DrizzleVuePlugin.js",
@@ -55,5 +58,6 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.3",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "gitHead": "da794822794f076099f140b80161a3820dfa3e12"
 }
