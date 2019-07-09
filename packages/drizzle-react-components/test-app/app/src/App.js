@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Drizzle } from 'drizzle';
-import { DrizzleContext } from "drizzle-react";
+import { Drizzle } from '@drizzle/drizzle';
+import { DrizzleContext } from "@drizzle/drizzle-react";
 
 import "./App.css";
 
