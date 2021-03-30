@@ -3742,10 +3742,10 @@ drbg.js@^1.0.1:
     create-hash "^1.1.2"
     create-hmac "^1.1.4"
 
-drizzle-react-components@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/drizzle-react-components/-/drizzle-react-components-1.2.1.tgz#011b2f9a9bf77acb8d870798e307cafa0ef42404"
-  integrity sha512-Uv5r8+J8PdIfSPMb29Lfh8KxReT4r+mpH9k59kU+PW3i1oGXhxTK5J17/7Rv31rYGLOraaqXzXeqiA0k0AWHEg==
+drizzle-react-components@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/drizzle-react-components/-/drizzle-react-components-1.4.0.tgz#e252a46f6d48c20c3054e62f2c2e3aab1c05e9ed"
+  integrity sha512-/i8FLkqHar8bk1Hq7MhcuaPDTomEhjLXHIZ4weVeWuPltWZMfUnAcWLiHVxNd19BOUNDXnjbESbSQlbPS47i9Q==
   dependencies:
     prop-types "^15.5.10"
     react "^15.4.2"
@@ -11845,9 +11845,9 @@ xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
