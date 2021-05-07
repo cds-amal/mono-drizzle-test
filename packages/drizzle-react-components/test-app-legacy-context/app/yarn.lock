@@ -3742,10 +3742,10 @@ drbg.js@^1.0.1:
     create-hash "^1.1.2"
     create-hmac "^1.1.4"
 
-drizzle-react-components@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/drizzle-react-components/-/drizzle-react-components-1.2.1.tgz#011b2f9a9bf77acb8d870798e307cafa0ef42404"
-  integrity sha512-Uv5r8+J8PdIfSPMb29Lfh8KxReT4r+mpH9k59kU+PW3i1oGXhxTK5J17/7Rv31rYGLOraaqXzXeqiA0k0AWHEg==
+drizzle-react-components@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/drizzle-react-components/-/drizzle-react-components-1.4.0.tgz#e252a46f6d48c20c3054e62f2c2e3aab1c05e9ed"
+  integrity sha512-/i8FLkqHar8bk1Hq7MhcuaPDTomEhjLXHIZ4weVeWuPltWZMfUnAcWLiHVxNd19BOUNDXnjbESbSQlbPS47i9Q==
   dependencies:
     prop-types "^15.5.10"
     react "^15.4.2"
@@ -10841,9 +10841,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.19"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
-  integrity sha512-T3PVJ6uz8i0HzPxOF9SWzWAlfN/DavlpQqepn22xgve/5QecC+XMCAtmUNnY7C9StehaV6exjUCI801lOI7QlQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.3.4:
   version "3.3.9"
